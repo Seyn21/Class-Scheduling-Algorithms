@@ -1,6 +1,6 @@
 # Class-Scheduling-Algorithms
 
-This repository contains a Java implementation of class scheduling algorithms as part of an Operating Systems (OS) Class Assignment. The project compares the First-Come, First-Served (FCFS) scheduling algorithm with another scheduling algorithm of choice (e.g., Priority Scheduling) to find the best class scheduling solution. The implementation evaluates the algorithms based on key metrics like average waiting time and turnaround time. An analysis of the algorithms' performance is also included.
+This repository contains a Java implementation of class scheduling algorithms as part of my Operating Systems (OS) Class Assignment. The project compares the First-Come, First-Served (FCFS) scheduling algorithm with another scheduling algorithm of choice (e.g., Priority Scheduling) to find the best class scheduling solution. The implementation evaluates the algorithms based on key metrics like average waiting time and turnaround time. An analysis of the algorithms' performance is also included.
 
 The Question:
 Introduction
