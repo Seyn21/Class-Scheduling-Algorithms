@@ -1,0 +1,23 @@
+Analysis of Class Scheduling Algorithms
+
+Input:
+Courses: CSC2201 with priority 2 for 3 hours preferred to start first,
+         CSC3401 with priority 3 for 2 hours preferred to start second,
+         CSC1103 with priority 1 for 1 hour preferred to start third.
+
+Output:
+FCFS Order of Scheduling: 2201 3401 1103
+Average Waiting Time: 2.0
+Average Turnaround Time: 4.0
+
+Priority Scheduling Order of Scheduling: 1103 2201 3401
+Average Waiting Time: 1.0
+Average Turnaround Time: 3.0
+
+Explanation:
+- FCFS (First-Come, First-Served) scheduling is straightforward but does not consider priority. It schedules classes based on the order they appear.
+- Priority Scheduling takes into account the priority of each class, leading to potentially lower waiting and turnaround times for higher-priority classes.
+- In the given example, Priority Scheduling results in a lower average waiting time and turnaround time compared to FCFS, making it more efficient for this scenario.
+
+Conclusion:
+Priority Scheduling is better suited for this class scheduling problem as it considers the importance of each class, leading to better overall efficiency in terms of waiting and turnaround times.
