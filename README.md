@@ -14,9 +14,12 @@ However, there are significant difference between class scheduling and CPU sched
 Additionally, we do not assume new classes to be introduced during scheduling, meaning, the scheduling would be final with the input given, and no new courses are introduced after the scheduling have been made.
 
 Assignment
+
 Your job is to propose the best scheduling algorithm to implement in finding the best Class Scheduling solution. Your choices of algorithms are using Round-Robin, SJF, SRTF, or Priority Scheduling.
 As a hint, you can't use some algorithms, because they are pre-emptive scheduling algorithms. Which ones are non-preemptive?
+
 Input
+
 Similar to a process, each class, will have the following members of integer values to consider, its course code, duration, preferred started time and priority. We consider each course can be in the duration of 1 hour, 2 hours, or 3 hours at a time. We can therefore represent a course/class as a structure like the code given as follows.
 
 using namespace std;
@@ -41,9 +44,12 @@ cout << proc[0].ccode;  //prints out the course code in the first element of the
 Your job is to write the code for two algorithms i.e. FCSF and another one (1) algorithm that you can consider using to schedule courses. Note that in FCFS, you can ignore the priority parameter, and preferred start time (arrival) because the algorithm only cares about what is in the queue (array).
 
 Output
+
 Your output has to display out
 •	Output the order of scheduling for the courses, in FCFS, and another 1 algorithm that you propose.
 •	average waiting time
 •	average turnaround time
+
 Analysis
+
 Include in text file called analysis.txt, your analysis of the algorithm, the input that you have given and the output that your algorithm has produced. Give an explanation as to why this is better or worse than other algorithms you've have considered.
